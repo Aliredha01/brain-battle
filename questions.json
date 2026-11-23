@@ -1,0 +1,932 @@
+{
+  "Mathematics": [
+    {
+      "text": "What is 12 × 8?",
+      "options": [
+        "86",
+        "96",
+        "108",
+        "98"
+      ],
+      "answer": "96",
+      "explanation": "12 groups of 8 equal 96.",
+      "points": 100
+    },
+    {
+      "text": "What is 15% of 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "35"
+      ],
+      "answer": "30",
+      "explanation": "0.15 × 200 = 30.",
+      "points": 200
+    },
+    {
+      "text": "Solve: 3x + 7 = 25.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "6",
+      "explanation": "3x = 18, so x = 6.",
+      "points": 300
+    },
+    {
+      "text": "What is the area of a circle with radius 3? (Use π.)",
+      "options": [
+        "3π",
+        "6π",
+        "9π",
+        "12π"
+      ],
+      "answer": "9π",
+      "explanation": "Area = πr² = 9π.",
+      "points": 400
+    },
+    {
+      "text": "What is the derivative of x³?",
+      "options": [
+        "x²",
+        "2x",
+        "3x²",
+        "3x³"
+      ],
+      "answer": "3x²",
+      "explanation": "The power rule gives 3x².",
+      "points": 500
+    }
+  ],
+  "Physics": [
+    {
+      "text": "What force pulls objects toward Earth?",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Magnetism",
+        "Tension"
+      ],
+      "answer": "Gravity",
+      "explanation": "Gravity attracts masses.",
+      "points": 100
+    },
+    {
+      "text": "What is the SI unit of electric current?",
+      "options": [
+        "Volt",
+        "Ohm",
+        "Ampere",
+        "Watt"
+      ],
+      "answer": "Ampere",
+      "explanation": "Current is measured in amperes.",
+      "points": 200
+    },
+    {
+      "text": "A car travels 100 km in 2 hours. What is its average speed?",
+      "options": [
+        "25 km/h",
+        "50 km/h",
+        "100 km/h",
+        "200 km/h"
+      ],
+      "answer": "50 km/h",
+      "explanation": "Speed = distance ÷ time.",
+      "points": 300
+    },
+    {
+      "text": "Which particle has a negative electric charge?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Photon"
+      ],
+      "answer": "Electron",
+      "explanation": "Electrons carry negative charge.",
+      "points": 400
+    },
+    {
+      "text": "What is the approximate speed of light in a vacuum?",
+      "options": [
+        "3×10⁶ m/s",
+        "3×10⁸ m/s",
+        "3×10¹⁰ m/s",
+        "3×10¹² m/s"
+      ],
+      "answer": "3×10⁸ m/s",
+      "explanation": "The accepted value is about 299,792,458 m/s.",
+      "points": 500
+    }
+  ],
+  "Chemistry": [
+    {
+      "text": "What is the chemical symbol for gold?",
+      "options": [
+        "Ag",
+        "Au",
+        "Gd",
+        "Go"
+      ],
+      "answer": "Au",
+      "explanation": "Au comes from the Latin aurum.",
+      "points": 100
+    },
+    {
+      "text": "A solution with pH 3 is:",
+      "options": [
+        "Acidic",
+        "Neutral",
+        "Basic",
+        "Always salty"
+      ],
+      "answer": "Acidic",
+      "explanation": "Values below 7 are acidic.",
+      "points": 200
+    },
+    {
+      "text": "How many hydrogen atoms are in one water molecule?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "explanation": "H₂O contains two hydrogen atoms.",
+      "points": 300
+    },
+    {
+      "text": "Which bond involves sharing electron pairs?",
+      "options": [
+        "Ionic",
+        "Covalent",
+        "Metallic",
+        "Hydrogen"
+      ],
+      "answer": "Covalent",
+      "explanation": "Covalent bonds share electron pairs.",
+      "points": 400
+    },
+    {
+      "text": "What is the oxidation state of oxygen in most compounds?",
+      "options": [
+        "−2",
+        "+1",
+        "0",
+        "+2"
+      ],
+      "answer": "−2",
+      "explanation": "Oxygen is usually −2, with known exceptions.",
+      "points": 500
+    }
+  ],
+  "Biology": [
+    {
+      "text": "Which organ pumps blood through the human body?",
+      "options": [
+        "Lung",
+        "Liver",
+        "Heart",
+        "Kidney"
+      ],
+      "answer": "Heart",
+      "explanation": "The heart circulates blood.",
+      "points": 100
+    },
+    {
+      "text": "What is the basic unit of life?",
+      "options": [
+        "Atom",
+        "Cell",
+        "Organ",
+        "Tissue"
+      ],
+      "answer": "Cell",
+      "explanation": "Cells are the basic structural and functional units of life.",
+      "points": 200
+    },
+    {
+      "text": "Which molecule carries genetic instructions?",
+      "options": [
+        "DNA",
+        "ATP",
+        "Glucose",
+        "Lipid"
+      ],
+      "answer": "DNA",
+      "explanation": "DNA stores hereditary information.",
+      "points": 300
+    },
+    {
+      "text": "Where does photosynthesis mainly occur in plant cells?",
+      "options": [
+        "Mitochondria",
+        "Nucleus",
+        "Chloroplasts",
+        "Ribosomes"
+      ],
+      "answer": "Chloroplasts",
+      "explanation": "Chloroplasts contain chlorophyll and photosynthetic machinery.",
+      "points": 400
+    },
+    {
+      "text": "What is the name of the process by which cells divide to produce two genetically identical daughter cells?",
+      "options": [
+        "Meiosis",
+        "Mitosis",
+        "Osmosis",
+        "Translation"
+      ],
+      "answer": "Mitosis",
+      "explanation": "Mitosis produces two genetically identical daughter cells.",
+      "points": 500
+    }
+  ],
+  "General Knowledge": [
+    {
+      "text": "How many days are in a standard non-leap year?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "answer": "365",
+      "explanation": "A common year has 365 days.",
+      "points": 100
+    },
+    {
+      "text": "Which language is primarily spoken in Brazil?",
+      "options": [
+        "Spanish",
+        "Portuguese",
+        "French",
+        "Italian"
+      ],
+      "answer": "Portuguese",
+      "explanation": "Portuguese is Brazil's official language.",
+      "points": 200
+    },
+    {
+      "text": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Arctic",
+        "Pacific"
+      ],
+      "answer": "Pacific",
+      "explanation": "The Pacific is the largest ocean.",
+      "points": 300
+    },
+    {
+      "text": "Which instrument measures temperature?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": "Thermometer",
+      "explanation": "A thermometer measures temperature.",
+      "points": 400
+    },
+    {
+      "text": "What is the only mammal capable of true sustained flight?",
+      "options": [
+        "Flying squirrel",
+        "Bat",
+        "Sugar glider",
+        "Colugo"
+      ],
+      "answer": "Bat",
+      "explanation": "Bats are the only mammals capable of powered flight.",
+      "points": 500
+    }
+  ],
+  "History": [
+    {
+      "text": "The ancient pyramids of Giza are in which country?",
+      "options": [
+        "Mexico",
+        "Egypt",
+        "Greece",
+        "Iraq"
+      ],
+      "answer": "Egypt",
+      "explanation": "Giza is near Cairo, Egypt.",
+      "points": 100
+    },
+    {
+      "text": "The Renaissance began in which present-day country?",
+      "options": [
+        "France",
+        "Italy",
+        "Germany",
+        "Spain"
+      ],
+      "answer": "Italy",
+      "explanation": "The Renaissance began in Italian city-states.",
+      "points": 200
+    },
+    {
+      "text": "In what year did World War II end?",
+      "options": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "answer": "1945",
+      "explanation": "The war ended in 1945.",
+      "points": 300
+    },
+    {
+      "text": "Which document, adopted in 1215, limited the power of the English king?",
+      "options": [
+        "Bill of Rights",
+        "Magna Carta",
+        "Petition of Right",
+        "Treaty of Paris"
+      ],
+      "answer": "Magna Carta",
+      "explanation": "King John sealed Magna Carta in 1215.",
+      "points": 400
+    },
+    {
+      "text": "Which West African empire was famously ruled by Mansa Musa in the 14th century?",
+      "options": [
+        "Songhai",
+        "Mali",
+        "Ghana",
+        "Benin"
+      ],
+      "answer": "Mali",
+      "explanation": "Mansa Musa ruled the Mali Empire.",
+      "points": 500
+    }
+  ],
+  "Geography": [
+    {
+      "text": "What is the capital of Japan?",
+      "options": [
+        "Kyoto",
+        "Tokyo",
+        "Osaka",
+        "Nagoya"
+      ],
+      "answer": "Tokyo",
+      "explanation": "Tokyo is Japan's capital.",
+      "points": 100
+    },
+    {
+      "text": "Which continent is the Sahara Desert located in?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Australia",
+        "South America"
+      ],
+      "answer": "Africa",
+      "explanation": "The Sahara spans northern Africa.",
+      "points": 200
+    },
+    {
+      "text": "What is the world's highest mountain above sea level?",
+      "options": [
+        "K2",
+        "Kangchenjunga",
+        "Mount Everest",
+        "Lhotse"
+      ],
+      "answer": "Mount Everest",
+      "explanation": "Everest is about 8,849 meters high.",
+      "points": 300
+    },
+    {
+      "text": "Which river flows through Budapest?",
+      "options": [
+        "Rhine",
+        "Danube",
+        "Seine",
+        "Thames"
+      ],
+      "answer": "Danube",
+      "explanation": "The Danube divides Buda and Pest.",
+      "points": 400
+    },
+    {
+      "text": "Which country has the most time zones when overseas territories are included?",
+      "options": [
+        "Russia",
+        "United States",
+        "France",
+        "China"
+      ],
+      "answer": "France",
+      "explanation": "France's overseas territories give it the most time zones.",
+      "points": 500
+    }
+  ],
+  "Politics & Government": [
+    {
+      "text": "In a democracy, citizens commonly choose leaders through:",
+      "options": [
+        "Hereditary succession",
+        "Elections",
+        "Lottery only",
+        "Military appointment"
+      ],
+      "answer": "Elections",
+      "explanation": "Elections are a common democratic mechanism.",
+      "points": 100
+    },
+    {
+      "text": "How many branches are in the U.S. federal government?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "explanation": "The branches are legislative, executive, and judicial.",
+      "points": 200
+    },
+    {
+      "text": "What is the main role of a constitution?",
+      "options": [
+        "Set grocery prices",
+        "Establish government structure and principles",
+        "Choose all local sports teams",
+        "Print company shares"
+      ],
+      "answer": "Establish government structure and principles",
+      "explanation": "A constitution establishes governing framework and limits.",
+      "points": 300
+    },
+    {
+      "text": "Which chamber of the U.S. Congress has 100 members, two from each state?",
+      "options": [
+        "House of Representatives",
+        "Senate",
+        "Supreme Court",
+        "Cabinet"
+      ],
+      "answer": "Senate",
+      "explanation": "Each state has two senators.",
+      "points": 400
+    },
+    {
+      "text": "What term describes dividing governmental power between national and regional governments?",
+      "options": [
+        "Federalism",
+        "Monarchy",
+        "Oligarchy",
+        "Isolationism"
+      ],
+      "answer": "Federalism",
+      "explanation": "Federalism shares authority between levels of government.",
+      "points": 500
+    }
+  ],
+  "Music": [
+    {
+      "text": "How many strings does a standard violin have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": "4",
+      "explanation": "A standard violin has four strings.",
+      "points": 100
+    },
+    {
+      "text": "Which family does the trumpet belong to?",
+      "options": [
+        "Strings",
+        "Woodwinds",
+        "Brass",
+        "Percussion"
+      ],
+      "answer": "Brass",
+      "explanation": "The trumpet is a brass instrument.",
+      "points": 200
+    },
+    {
+      "text": "How many semitones are in an octave in standard Western equal temperament?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": "12",
+      "explanation": "An octave spans twelve semitones.",
+      "points": 300
+    },
+    {
+      "text": "Which composer wrote the Ninth Symphony known for its 'Ode to Joy' finale?",
+      "options": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "answer": "Beethoven",
+      "explanation": "Beethoven's Symphony No. 9 includes the famous choral finale.",
+      "points": 400
+    },
+    {
+      "text": "What is the relative minor key of C major?",
+      "options": [
+        "A minor",
+        "D minor",
+        "E minor",
+        "G minor"
+      ],
+      "answer": "A minor",
+      "explanation": "A minor shares the same key signature as C major.",
+      "points": 500
+    }
+  ],
+  "Art": [
+    {
+      "text": "Which primary color is made by mixing blue and yellow paint?",
+      "options": [
+        "Purple",
+        "Green",
+        "Orange",
+        "Pink"
+      ],
+      "answer": "Green",
+      "explanation": "Blue and yellow pigment make green.",
+      "points": 100
+    },
+    {
+      "text": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Caravaggio"
+      ],
+      "answer": "Leonardo da Vinci",
+      "explanation": "Leonardo painted the Mona Lisa.",
+      "points": 200
+    },
+    {
+      "text": "What is the technique of painting on wet plaster called?",
+      "options": [
+        "Fresco",
+        "Etching",
+        "Collage",
+        "Tempera"
+      ],
+      "answer": "Fresco",
+      "explanation": "Fresco is painted onto fresh, wet plaster.",
+      "points": 300
+    },
+    {
+      "text": "Which art movement is strongly associated with Claude Monet?",
+      "options": [
+        "Cubism",
+        "Impressionism",
+        "Surrealism",
+        "Baroque"
+      ],
+      "answer": "Impressionism",
+      "explanation": "Monet was a leading Impressionist.",
+      "points": 400
+    },
+    {
+      "text": "In linear perspective, parallel lines appear to meet at what point?",
+      "options": [
+        "Horizon point",
+        "Vanishing point",
+        "Focal length",
+        "Center of gravity"
+      ],
+      "answer": "Vanishing point",
+      "explanation": "Perspective lines converge at a vanishing point.",
+      "points": 500
+    }
+  ],
+  "Technology": [
+    {
+      "text": "What does CPU stand for?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Power Utility",
+        "Core Program Upload",
+        "Central Print Unit"
+      ],
+      "answer": "Central Processing Unit",
+      "explanation": "CPU means Central Processing Unit.",
+      "points": 100
+    },
+    {
+      "text": "Which digits are used in binary?",
+      "options": [
+        "0 and 1",
+        "1 and 2",
+        "0 through 9",
+        "A and B"
+      ],
+      "answer": "0 and 1",
+      "explanation": "Binary is base two.",
+      "points": 200
+    },
+    {
+      "text": "What does URL identify?",
+      "options": [
+        "A web resource address",
+        "A computer's battery",
+        "A type of processor",
+        "A programming loop"
+      ],
+      "answer": "A web resource address",
+      "explanation": "URL stands for Uniform Resource Locator.",
+      "points": 300
+    },
+    {
+      "text": "Which protocol is commonly used to securely load websites?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answer": "HTTPS",
+      "explanation": "HTTPS encrypts HTTP traffic using TLS.",
+      "points": 400
+    },
+    {
+      "text": "What is the time complexity of binary search on a sorted array?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "explanation": "The search interval is halved each step.",
+      "points": 500
+    }
+  ],
+  "Literature": [
+    {
+      "text": "Who wrote Romeo and Juliet?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "answer": "William Shakespeare",
+      "explanation": "Shakespeare wrote the tragedy.",
+      "points": 100
+    },
+    {
+      "text": "What is a 14-line poem often called?",
+      "options": [
+        "Haiku",
+        "Sonnet",
+        "Ballad",
+        "Ode"
+      ],
+      "answer": "Sonnet",
+      "explanation": "A traditional sonnet has fourteen lines.",
+      "points": 200
+    },
+    {
+      "text": "Who wrote the novel 1984?",
+      "options": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "J.R.R. Tolkien"
+      ],
+      "answer": "George Orwell",
+      "explanation": "George Orwell published Nineteen Eighty-Four in 1949.",
+      "points": 300
+    },
+    {
+      "text": "In Greek mythology, who is traditionally credited as the authorial name behind the Iliad and Odyssey?",
+      "options": [
+        "Sophocles",
+        "Homer",
+        "Virgil",
+        "Ovid"
+      ],
+      "answer": "Homer",
+      "explanation": "Both epic poems are traditionally attributed to Homer.",
+      "points": 400
+    },
+    {
+      "text": "What literary term describes a reference to another text, person, or event?",
+      "options": [
+        "Alliteration",
+        "Allusion",
+        "Onomatopoeia",
+        "Hyperbole"
+      ],
+      "answer": "Allusion",
+      "explanation": "An allusion is an indirect reference.",
+      "points": 500
+    }
+  ],
+  "Sports": [
+    {
+      "text": "How many players from one basketball team are on the court at a time?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "Five players per team play on court.",
+      "points": 100
+    },
+    {
+      "text": "In tennis, what score comes after deuce when a player wins one point?",
+      "options": [
+        "Love",
+        "Advantage",
+        "Set point automatically",
+        "Fault"
+      ],
+      "answer": "Advantage",
+      "explanation": "A point after deuce gives that player advantage.",
+      "points": 200
+    },
+    {
+      "text": "How long is a standard outdoor soccer match, excluding added time and extra time?",
+      "options": [
+        "80 minutes",
+        "90 minutes",
+        "100 minutes",
+        "120 minutes"
+      ],
+      "answer": "90 minutes",
+      "explanation": "Two 45-minute halves make 90 minutes.",
+      "points": 300
+    },
+    {
+      "text": "Which country hosted the first modern Olympic Games in 1896?",
+      "options": [
+        "France",
+        "Greece",
+        "United Kingdom",
+        "Italy"
+      ],
+      "answer": "Greece",
+      "explanation": "Athens hosted the 1896 Games.",
+      "points": 400
+    },
+    {
+      "text": "In baseball, how many outs end a half-inning?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "explanation": "Three outs end a half-inning.",
+      "points": 500
+    }
+  ],
+  "Space & Astronomy": [
+    {
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "answer": "Mars",
+      "explanation": "Iron-rich dust gives Mars its reddish appearance.",
+      "points": 100
+    },
+    {
+      "text": "What is the closest star to Earth?",
+      "options": [
+        "Sirius",
+        "The Sun",
+        "Proxima Centauri",
+        "Polaris"
+      ],
+      "answer": "The Sun",
+      "explanation": "The Sun is Earth's nearest star.",
+      "points": 200
+    },
+    {
+      "text": "What galaxy contains our Solar System?",
+      "options": [
+        "Andromeda",
+        "Milky Way",
+        "Triangulum",
+        "Whirlpool"
+      ],
+      "answer": "Milky Way",
+      "explanation": "Our Solar System is in the Milky Way.",
+      "points": 300
+    },
+    {
+      "text": "What is the boundary around a black hole beyond which light cannot escape called?",
+      "options": [
+        "Accretion disk",
+        "Event horizon",
+        "Singularity ring",
+        "Photosphere"
+      ],
+      "answer": "Event horizon",
+      "explanation": "The event horizon marks the point of no return.",
+      "points": 400
+    },
+    {
+      "text": "What is the name of the first directly imaged interstellar object discovered passing through our Solar System in 2017?",
+      "options": [
+        "Bennu",
+        "ʻOumuamua",
+        "Eros",
+        "Halley"
+      ],
+      "answer": "ʻOumuamua",
+      "explanation": "ʻOumuamua was discovered in 2017 on an interstellar trajectory.",
+      "points": 500
+    }
+  ],
+  "Business & Economics": [
+    {
+      "text": "What is the money paid for work usually called?",
+      "options": [
+        "Rent",
+        "Wage",
+        "Tax",
+        "Interest"
+      ],
+      "answer": "Wage",
+      "explanation": "A wage is compensation for labor.",
+      "points": 100
+    },
+    {
+      "text": "If demand rises while supply stays the same, what generally happens to equilibrium price?",
+      "options": [
+        "Falls",
+        "Rises",
+        "Stays zero",
+        "Becomes negative"
+      ],
+      "answer": "Rises",
+      "explanation": "Higher demand generally raises equilibrium price.",
+      "points": 200
+    },
+    {
+      "text": "What does GDP measure?",
+      "options": [
+        "A country's total final goods and services produced",
+        "Only government tax revenue",
+        "A nation's population",
+        "A country's exports only"
+      ],
+      "answer": "A country's total final goods and services produced",
+      "explanation": "GDP measures the value of final production within a country.",
+      "points": 300
+    },
+    {
+      "text": "What is inflation?",
+      "options": [
+        "A sustained rise in the general price level",
+        "A fall in all wages",
+        "A rise in one product's price only",
+        "A decline in money supply only"
+      ],
+      "answer": "A sustained rise in the general price level",
+      "explanation": "Inflation is a broad increase in prices over time.",
+      "points": 400
+    },
+    {
+      "text": "In finance, what does diversification primarily aim to reduce?",
+      "options": [
+        "All market risk",
+        "Concentration risk",
+        "The passage of time",
+        "The number of assets"
+      ],
+      "answer": "Concentration risk",
+      "explanation": "Spreading investments can reduce exposure to any single asset or risk.",
+      "points": 500
+    }
+  ]
+}
